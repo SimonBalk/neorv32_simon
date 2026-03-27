@@ -1,0 +1,4 @@
+v 4
+file "/home/simon/counter/" "counter.vhdl" "0aef1190b496e92a2a4d06cef33efd8732e6354a" "20260327091648.764":
+  entity counter at 1( 0) + 0 on 11;
+  architecture rtl of counter at 13( 214) + 0 on 12;
