@@ -1,27 +1,27 @@
 v 4
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_package.vhd" "f142806ab5f3ea1564556d43caada73d284752f4" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_package.vhd" "f142806ab5f3ea1564556d43caada73d284752f4" "20260413104106.414":
   package neorv32_package at 11( 784) + 0 on 11 body;
   package body neorv32_package at 1021( 62475) + 0 on 12;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_sys.vhd" "0a8a9389648beba93d11cf6e255e691fe709818a" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_sys.vhd" "0a8a9389648beba93d11cf6e255e691fe709818a" "20260413104106.414":
   entity neorv32_sys_reset at 11( 784) + 0 on 15;
   architecture neorv32_sys_reset_rtl of neorv32_sys_reset at 34( 1635) + 0 on 16;
   entity neorv32_sys_clock at 90( 3846) + 0 on 17;
   architecture neorv32_sys_clock_rtl of neorv32_sys_clock at 106( 4340) + 0 on 18;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cpu_decompressor.vhd" "eee6178881be159637a200cd319e2805835069ef" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cpu_decompressor.vhd" "eee6178881be159637a200cd319e2805835069ef" "20260413104106.414":
   entity neorv32_cpu_decompressor at 15( 1132) + 0 on 19;
   architecture neorv32_cpu_decompressor_rtl of neorv32_cpu_decompressor at 31( 1527) + 0 on 20;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cpu_frontend.vhd" "59ce77805ba7dd1c734d8ba2f3a55b2703993b1d" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cpu_frontend.vhd" "59ce77805ba7dd1c734d8ba2f3a55b2703993b1d" "20260413104106.414":
   entity neorv32_cpu_frontend at 15( 1132) + 0 on 21;
   architecture neorv32_cpu_frontend_rtl of neorv32_cpu_frontend at 45( 2127) + 0 on 22;
   entity neorv32_cpu_frontend_ipb at 319( 13875) + 0 on 23;
   architecture neorv32_cpu_frontend_ipb_rtl of neorv32_cpu_frontend_ipb at 347( 14756) + 0 on 24;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cpu_control.vhd" "ff56c563eb71b34d6a6cbe6178faf4b2a8953291" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cpu_control.vhd" "ff56c563eb71b34d6a6cbe6178faf4b2a8953291" "20260413104106.414":
   entity neorv32_cpu_control at 11( 784) + 0 on 25;
   architecture neorv32_cpu_control_rtl of neorv32_cpu_control at 91( 5535) + 0 on 26;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cpu_hwtrig.vhd" "1ac67b41291925ed0d124dd066ab2d1fd09d9203" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cpu_hwtrig.vhd" "1ac67b41291925ed0d124dd066ab2d1fd09d9203" "20260413104106.414":
   entity neorv32_cpu_hwtrig at 14( 1045) + 0 on 27;
   architecture neorv32_cpu_hwtrig_rtl of neorv32_cpu_hwtrig at 39( 1855) + 0 on 28;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_prim.vhd" "4246e0913a5a989e30c5075afcc2db4f772edc3a" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_prim.vhd" "4246e0913a5a989e30c5075afcc2db4f772edc3a" "20260413104106.414":
   entity neorv32_prim_fifo at 20( 1567) + 0 on 29;
   architecture neorv32_prim_fifo_rtl of neorv32_prim_fifo at 46( 2685) + 0 on 30;
   entity neorv32_prim_spram at 164( 7242) + 0 on 31;
@@ -30,58 +30,58 @@ file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_prim.vhd" "4246e
   architecture neorv32_prim_mul_rtl of neorv32_prim_mul at 277( 11449) + 0 on 34;
   entity neorv32_prim_cnt at 328( 13750) + 0 on 35;
   architecture neorv32_prim_cnt_rtl of neorv32_prim_cnt at 349( 14531) + 0 on 36;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cpu_counters.vhd" "4e380555b710114f277c7258e29a9411ba967718" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cpu_counters.vhd" "4e380555b710114f277c7258e29a9411ba967718" "20260413104106.414":
   entity neorv32_cpu_counters at 16( 1219) + 0 on 37;
   architecture neorv32_cpu_counters_rtl of neorv32_cpu_counters at 42( 2145) + 0 on 38;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cpu_regfile.vhd" "73f8a024806583e686b8e6b0dec16876a0b2c59b" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cpu_regfile.vhd" "73f8a024806583e686b8e6b0dec16876a0b2c59b" "20260413104106.414":
   entity neorv32_cpu_regfile at 21( 1654) + 0 on 39;
   architecture neorv32_cpu_regfile_rtl of neorv32_cpu_regfile at 46( 2471) + 0 on 40;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cpu_alu_shifter.vhd" "ea9cd543e914552a21bd545ccebc0ceb97e5163c" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cpu_alu_shifter.vhd" "ea9cd543e914552a21bd545ccebc0ceb97e5163c" "20260413104106.414":
   entity neorv32_cpu_alu_shifter at 14( 1045) + 0 on 41;
   architecture neorv32_cpu_alu_shifter_rtl of neorv32_cpu_alu_shifter at 39( 1852) + 0 on 42;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cpu_alu_muldiv.vhd" "d14a22248ed67fa98d0315e03f878056f9047ee4" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cpu_alu_muldiv.vhd" "d14a22248ed67fa98d0315e03f878056f9047ee4" "20260413104106.414":
   entity neorv32_cpu_alu_muldiv at 16( 1219) + 0 on 43;
   architecture neorv32_cpu_alu_muldiv_rtl of neorv32_cpu_alu_muldiv at 42( 2074) + 0 on 44;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cpu_alu_bitmanip.vhd" "3db8fc862a11e83c02f30e08c58ac39c326874b9" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cpu_alu_bitmanip.vhd" "3db8fc862a11e83c02f30e08c58ac39c326874b9" "20260413104106.414":
   entity neorv32_cpu_alu_bitmanip at 20( 1567) + 0 on 45;
   architecture neorv32_cpu_alu_bitmanip_rtl of neorv32_cpu_alu_bitmanip at 53( 2925) + 0 on 46;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cpu_alu_fpu.vhd" "04bcc7a3d75583ec657b420354d33dee247b7fc3" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cpu_alu_fpu.vhd" "04bcc7a3d75583ec657b420354d33dee247b7fc3" "20260413104106.414":
   entity neorv32_cpu_alu_fpu at 26( 2089) + 0 on 47;
   architecture neorv32_cpu_alu_fpu_rtl of neorv32_cpu_alu_fpu at 59( 3464) + 0 on 48;
   entity neorv32_cpu_alu_fpu_normalizer at 1514( 79741) + 0 on 49;
   architecture neorv32_cpu_alu_fpu_normalizer_rtl of neorv32_cpu_alu_fpu_normalizer at 1547( 81263) + 0 on 50;
   entity neorv32_cpu_alu_fpu_f2i at 1949( 100175) + 0 on 51;
   architecture neorv32_cpu_alu_fpu_f2i_rtl of neorv32_cpu_alu_fpu_f2i at 1980( 101337) + 0 on 52;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cpu_alu_cfu.vhd" "c8dadafac151b4534d182f8ceeb830ae3b3f0d7a" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cpu_alu_cfu.vhd" "c8dadafac151b4534d182f8ceeb830ae3b3f0d7a" "20260413104106.414":
   entity neorv32_cpu_alu_cfu at 14( 1045) + 0 on 53;
   architecture neorv32_cpu_alu_cfu_rtl of neorv32_cpu_alu_cfu at 49( 2823) + 0 on 54;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cpu_alu_cond.vhd" "ffec7f069e779def144a3a47d84354d2284bf400" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cpu_alu_cond.vhd" "ffec7f069e779def144a3a47d84354d2284bf400" "20260413104106.414":
   entity neorv32_cpu_alu_cond at 11( 784) + 0 on 55;
   architecture neorv32_cpu_alu_cond_rtl of neorv32_cpu_alu_cond at 32( 1470) + 0 on 56;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cpu_alu_crypto.vhd" "ad214186b95aa82d42ed79080fd29c7cf3d6fdac" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cpu_alu_crypto.vhd" "ad214186b95aa82d42ed79080fd29c7cf3d6fdac" "20260413104106.414":
   entity neorv32_cpu_alu_crypto at 18( 1393) + 0 on 57;
   architecture neorv32_cpu_alu_crypto_rtl of neorv32_cpu_alu_crypto at 47( 2430) + 0 on 58;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cpu_alu.vhd" "8855258e9dacd5c240255779c3aa340fd180fddb" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cpu_alu.vhd" "8855258e9dacd5c240255779c3aa340fd180fddb" "20260413104106.414":
   entity neorv32_cpu_alu at 11( 784) + 0 on 59;
   architecture neorv32_cpu_alu_rtl of neorv32_cpu_alu at 60( 3063) + 0 on 60;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cpu_lsu.vhd" "2286e73740e41747ea1f27e34e624534ed2f979b" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cpu_lsu.vhd" "2286e73740e41747ea1f27e34e624534ed2f979b" "20260413104106.414":
   entity neorv32_cpu_lsu at 11( 784) + 0 on 61;
   architecture neorv32_cpu_lsu_rtl of neorv32_cpu_lsu at 42( 1990) + 0 on 62;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cpu_pmp.vhd" "31d75ac695b89ace9f5a36b67be198980a778931" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cpu_pmp.vhd" "31d75ac695b89ace9f5a36b67be198980a778931" "20260413104106.414":
   entity neorv32_cpu_pmp at 15( 1132) + 0 on 63;
   architecture neorv32_cpu_pmp_rtl of neorv32_cpu_pmp at 46( 2271) + 0 on 64;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cpu_trace.vhd" "46aef00c223513457bb61f1218dfaad397992540" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cpu_trace.vhd" "46aef00c223513457bb61f1218dfaad397992540" "20260413104106.414":
   entity neorv32_cpu_trace at 11( 784) + 0 on 65;
   architecture neorv32_cpu_trace_rtl of neorv32_cpu_trace at 36( 1693) + 0 on 66;
   entity neorv32_cpu_trace_simlog at 169( 7130) + 0 on 67;
   architecture neorv32_cpu_trace_simlog_rtl of neorv32_cpu_trace_simlog at 193( 7666) + 0 on 68;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cpu.vhd" "018a86a2368a1517fa74c4e7fa7df5d07ad98b96" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cpu.vhd" "018a86a2368a1517fa74c4e7fa7df5d07ad98b96" "20260413104106.414":
   entity neorv32_cpu at 15( 1132) + 0 on 69;
   architecture neorv32_cpu_rtl of neorv32_cpu at 99( 7060) + 0 on 70;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cache.vhd" "e9968ad0a88de908ea32d65eb8cd00ff137558f8" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cache.vhd" "e9968ad0a88de908ea32d65eb8cd00ff137558f8" "20260413104106.414":
   entity neorv32_cache at 21( 1654) + 0 on 71;
   architecture neorv32_cache_rtl of neorv32_cache at 46( 2642) + 0 on 72;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_bus.vhd" "70a7827ffe598e5713f7bdc9582487c431b04132" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_bus.vhd" "70a7827ffe598e5713f7bdc9582487c431b04132" "20260413104106.414":
   entity neorv32_bus_switch at 11( 784) + 0 on 73;
   architecture neorv32_bus_switch_rtl of neorv32_bus_switch at 35( 1644) + 0 on 74;
   entity neorv32_bus_reg at 167( 7179) + 0 on 75;
@@ -94,113 +94,113 @@ file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_bus.vhd" "70a782
   architecture neorv32_bus_amo_rmw_rtl of neorv32_bus_amo_rmw at 718( 32474) + 0 on 82;
   entity neorv32_bus_amo_rvs at 852( 38812) + 0 on 83;
   architecture neorv32_bus_amo_rvs_rtl of neorv32_bus_amo_rvs at 872( 39301) + 0 on 84;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_dma.vhd" "897cb919ac43e552bb5e417bd7998e34af3a60d2" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_dma.vhd" "897cb919ac43e552bb5e417bd7998e34af3a60d2" "20260413104106.414":
   entity neorv32_dma at 11( 784) + 0 on 85;
   architecture neorv32_dma_rtl of neorv32_dma at 33( 1445) + 0 on 86;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_imem.vhd" "bbc40314de4e500d62d38e577a86130e1688d887" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_imem.vhd" "bbc40314de4e500d62d38e577a86130e1688d887" "20260413104106.414":
   entity neorv32_imem at 11( 784) + 0 on 87;
   architecture neorv32_imem_rtl of neorv32_imem at 31( 1376) + 0 on 88;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_dmem.vhd" "cbceaced7e02a7e1ee9a8f2a29652538c12ba41d" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_dmem.vhd" "cbceaced7e02a7e1ee9a8f2a29652538c12ba41d" "20260413104106.414":
   entity neorv32_dmem at 11( 784) + 0 on 89;
   architecture neorv32_dmem_rtl of neorv32_dmem at 30( 1297) + 0 on 90;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_xbus.vhd" "940211753394be213afe29f48475097ac2e75f63" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_xbus.vhd" "940211753394be213afe29f48475097ac2e75f63" "20260413104106.414":
   entity neorv32_xbus at 14( 1045) + 0 on 91;
   architecture neorv32_xbus_rtl of neorv32_xbus at 45( 2420) + 0 on 92;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_bootrom.vhd" "f68411c3dc607abbc7ff801ec5120f10fadf6b94" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_bootrom.vhd" "f68411c3dc607abbc7ff801ec5120f10fadf6b94" "20260413104106.414":
   entity neorv32_bootrom at 11( 784) + 0 on 93;
   architecture neorv32_bootrom_rtl of neorv32_bootrom at 26( 1148) + 0 on 94;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cfs.vhd" "76635b5ab6055fcb36f202388071f9bfc18438bc" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cfs.vhd" "76635b5ab6055fcb36f202388071f9bfc18438bc" "20260413104106.414":
   entity neorv32_cfs at 11( 784) + 0 on 95;
   architecture neorv32_cfs_rtl of neorv32_cfs at 34( 1478) + 0 on 96;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_sdi.vhd" "43484df60e496b90d928eafceaef27985c5521af" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_sdi.vhd" "43484df60e496b90d928eafceaef27985c5521af" "20260413104106.414":
   entity neorv32_sdi at 11( 784) + 0 on 97;
   architecture neorv32_sdi_rtl of neorv32_sdi at 35( 1549) + 0 on 98;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_gpio.vhd" "d86d852263585c1c35886008d2ad98bb15a05f37" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_gpio.vhd" "d86d852263585c1c35886008d2ad98bb15a05f37" "20260413104106.414":
   entity neorv32_gpio at 11( 784) + 0 on 99;
   architecture neorv32_gpio_rtl of neorv32_gpio at 32( 1528) + 0 on 100;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_wdt.vhd" "23dece578eb8b861094f23731782503a4557b73d" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_wdt.vhd" "23dece578eb8b861094f23731782503a4557b73d" "20260413104106.414":
   entity neorv32_wdt at 11( 784) + 0 on 101;
   architecture neorv32_wdt_rtl of neorv32_wdt at 31( 1585) + 0 on 102;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_clint.vhd" "3dc5cc901034422ff3b2e65bf7f20c557d954ae1" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_clint.vhd" "3dc5cc901034422ff3b2e65bf7f20c557d954ae1" "20260413104106.414":
   entity neorv32_clint at 14( 1045) + 0 on 103;
   architecture neorv32_clint_rtl of neorv32_clint at 36( 1912) + 0 on 104;
   entity neorv32_clint_mtimecmp at 214( 8649) + 0 on 105;
   architecture neorv32_clint_mtimecmp_rtl of neorv32_clint_mtimecmp at 231( 9317) + 0 on 106;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_uart.vhd" "516e9678d37512626c2da17181aac12aa729d2dc" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_uart.vhd" "516e9678d37512626c2da17181aac12aa729d2dc" "20260413104106.414":
   entity neorv32_uart at 11( 784) + 0 on 107;
   architecture neorv32_uart_rtl of neorv32_uart at 43( 2070) + 0 on 108;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_spi.vhd" "b7cfc1fb5f99bf43e8c55c2a3ff8f8a7d8e5ffd6" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_spi.vhd" "b7cfc1fb5f99bf43e8c55c2a3ff8f8a7d8e5ffd6" "20260413104106.414":
   entity neorv32_spi at 11( 784) + 0 on 109;
   architecture neorv32_spi_rtl of neorv32_spi at 36( 1845) + 0 on 110;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_twi.vhd" "92ba16dce09ab0688a253f9b38f437927c4a0585" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_twi.vhd" "92ba16dce09ab0688a253f9b38f437927c4a0585" "20260413104106.414":
   entity neorv32_twi at 11( 784) + 0 on 111;
   architecture neorv32_twi_rtl of neorv32_twi at 36( 1860) + 0 on 112;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_twd.vhd" "ca8a5bc30907556002b3e792f55b7551b21e7c92" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_twd.vhd" "ca8a5bc30907556002b3e792f55b7551b21e7c92" "20260413104106.414":
   entity neorv32_twd at 11( 784) + 0 on 113;
   architecture neorv32_twd_rtl of neorv32_twd at 36( 1846) + 0 on 114;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_pwm.vhd" "efe9804019af1e9f7e6fb7f78e63d9f822b2d52a" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_pwm.vhd" "efe9804019af1e9f7e6fb7f78e63d9f822b2d52a" "20260413104106.414":
   entity neorv32_pwm at 14( 1045) + 0 on 115;
   architecture neorv32_pwm_rtl of neorv32_pwm at 35( 1747) + 0 on 116;
   entity neorv32_pwm_channel at 183( 6979) + 0 on 117;
   architecture neorv32_pwm_channel_rtl of neorv32_pwm_channel at 208( 8085) + 0 on 118;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_trng.vhd" "aba39af98f976602b7da34fe5db12ffef854fac1" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_trng.vhd" "aba39af98f976602b7da34fe5db12ffef854fac1" "20260413104106.414":
   entity neorv32_trng at 13( 958) + 0 on 119;
   architecture neorv32_trng_rtl of neorv32_trng at 33( 1515) + 0 on 120;
   entity neotrng at 219( 11492) + 0 on 121;
   architecture neotrng_rtl of neotrng at 239( 12409) + 0 on 122;
   entity neotrng_cell at 396( 18633) + 0 on 123;
   architecture neotrng_cell_rtl of neotrng_cell at 413( 19189) + 0 on 124;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_neoled.vhd" "47189be682b046a026138d8203c9718fe917869f" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_neoled.vhd" "47189be682b046a026138d8203c9718fe917869f" "20260413104106.414":
   entity neorv32_neoled at 11( 784) + 0 on 125;
   architecture neorv32_neoled_rtl of neorv32_neoled at 33( 1587) + 0 on 126;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_gptmr.vhd" "a650edde31913a629315451de8b170329c97b3c6" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_gptmr.vhd" "a650edde31913a629315451de8b170329c97b3c6" "20260413104106.414":
   entity neorv32_gptmr at 13( 958) + 0 on 127;
   architecture neorv32_gptmr_rtl of neorv32_gptmr at 34( 1655) + 0 on 128;
   entity neorv32_gptmr_slice at 207( 7945) + 0 on 129;
   architecture neorv32_gptmr_slice_rtl of neorv32_gptmr_slice at 230( 8929) + 0 on 130;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_onewire.vhd" "af5258c0b12a5348b4a69c2adae938dc4e018302" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_onewire.vhd" "af5258c0b12a5348b4a69c2adae938dc4e018302" "20260413104106.414":
   entity neorv32_onewire at 11( 784) + 0 on 131;
   architecture neorv32_onewire_rtl of neorv32_onewire at 34( 1666) + 0 on 132;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_slink.vhd" "1a4297fff8fcbf743cfbd51028117ae1195b6378" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_slink.vhd" "1a4297fff8fcbf743cfbd51028117ae1195b6378" "20260413104106.414":
   entity neorv32_slink at 11( 784) + 0 on 133;
   architecture neorv32_slink_rtl of neorv32_slink at 45( 2421) + 0 on 134;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_tracer.vhd" "f5bf9ae2a56e70cfb58872bdb6af82ff2d4e9d70" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_tracer.vhd" "f5bf9ae2a56e70cfb58872bdb6af82ff2d4e9d70" "20260413104106.414":
   entity neorv32_tracer at 11( 784) + 0 on 135;
   architecture neorv32_tracer_rtl of neorv32_tracer at 37( 1777) + 0 on 136;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_sysinfo.vhd" "16491aa6abf1dad55134877c5b62757c9461f328" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_sysinfo.vhd" "16491aa6abf1dad55134877c5b62757c9461f328" "20260413104106.414":
   entity neorv32_sysinfo at 11( 784) + 0 on 137;
   architecture neorv32_sysinfo_rtl of neorv32_sysinfo at 67( 4284) + 0 on 138;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_debug_dtm.vhd" "68531dbab85bb60a22fd13f997e08e8a0553d2db" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_debug_dtm.vhd" "68531dbab85bb60a22fd13f997e08e8a0553d2db" "20260413104106.414":
   entity neorv32_debug_dtm at 13( 958) + 0 on 139;
   architecture neorv32_debug_dtm_rtl of neorv32_debug_dtm at 40( 1858) + 0 on 140;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_debug_auth.vhd" "6b45299f331592f870ddea7db81a9254b555d1c0" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_debug_auth.vhd" "6b45299f331592f870ddea7db81a9254b555d1c0" "20260413104106.414":
   entity neorv32_debug_auth at 16( 1219) + 0 on 141;
   architecture neorv32_debug_auth_rtl of neorv32_debug_auth at 36( 2124) + 0 on 142;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_debug_dm.vhd" "aa2b62ebe7ccd9a97962a07f75b3c2ed68d49b75" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_debug_dm.vhd" "aa2b62ebe7ccd9a97962a07f75b3c2ed68d49b75" "20260413104106.414":
   entity neorv32_debug_dm at 14( 1045) + 0 on 143;
   architecture neorv32_debug_dm_rtl of neorv32_debug_dm at 42( 1957) + 0 on 144;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_top.vhd" "39560b67c7935d8c744cad4bc5524b1c7a274d3d" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_top.vhd" "39560b67c7935d8c744cad4bc5524b1c7a274d3d" "20260413104106.414":
   entity neorv32_top at 15( 1132) + 0 on 145;
   architecture neorv32_top_rtl of neorv32_top at 250( 21450) + 0 on 146;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_cache_ram.vhd" "e96e65f6a8005171e50327be1a17fb4fb95e2f9c" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_cache_ram.vhd" "e96e65f6a8005171e50327be1a17fb4fb95e2f9c" "20260413104106.414":
   entity neorv32_cache_ram at 14( 1045) + 0 on 147;
   architecture neorv32_cache_ram_rtl of neorv32_cache_ram at 40( 1930) + 0 on 148;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_imem_image.vhd" "55cf345f50e85fc6dff000fb22f4b11ac26b0737" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_imem_image.vhd" "1876268c1ec12a4fcd3333e07d93137cee27bcec" "20260413104106.414":
   package neorv32_imem_image at 1( 0) + 0 on 149;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_imem_rom.vhd" "bd2b5030119f12b72ba2f53d159390b997770375" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_imem_rom.vhd" "bd2b5030119f12b72ba2f53d159390b997770375" "20260413104106.414":
   entity neorv32_imem_rom at 13( 958) + 0 on 150;
   architecture neorv32_imem_rom_rtl of neorv32_imem_rom at 34( 1583) + 0 on 151;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_imem_ram.vhd" "57476c226626128ab09674b54730625af547425b" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_imem_ram.vhd" "57476c226626128ab09674b54730625af547425b" "20260413104106.414":
   entity neorv32_imem_ram at 14( 1045) + 0 on 152;
   architecture neorv32_imem_ram_rtl of neorv32_imem_ram at 35( 1749) + 0 on 153;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_dmem_ram.vhd" "3d9ff05c56b56d0d87cf623a1e0cd6a93c8f6467" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_dmem_ram.vhd" "3d9ff05c56b56d0d87cf623a1e0cd6a93c8f6467" "20260413104106.414":
   entity neorv32_dmem_ram at 14( 1045) + 0 on 154;
   architecture neorv32_dmem_ram_rtl of neorv32_dmem_ram at 35( 1749) + 0 on 155;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_bootrom_image.vhd" "3bf1cbe9eb694ac51a20a230a61e9b1b3a6de793" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_bootrom_image.vhd" "3bf1cbe9eb694ac51a20a230a61e9b1b3a6de793" "20260413104106.414":
   package neorv32_bootrom_image at 1( 0) + 0 on 156;
-file "/home/simon/neorv32/rtl/verilog/" "../../rtl/core/neorv32_bootrom_rom.vhd" "ffd799b7544777384fa06b031be3090f91502a13" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "../../rtl/core/neorv32_bootrom_rom.vhd" "ffd799b7544777384fa06b031be3090f91502a13" "20260413104106.414":
   entity neorv32_bootrom_rom at 13( 958) + 0 on 157;
   architecture neorv32_bootrom_rom_rtl of neorv32_bootrom_rom at 33( 1533) + 0 on 158;
-file "/home/simon/neorv32/rtl/verilog/" "neorv32_verilog_wrapper.vhd" "8271e442cad67ec9f2061e47a133a01b0d5fc23d" "20260316124529.575":
+file "/home/simon/neorv32_simon/rtl/verilog/" "neorv32_verilog_wrapper.vhd" "528299a5cdb41d0c3f06e8580dd384910c82cc8e" "20260413104106.414":
   entity neorv32_verilog_wrapper at 11( 784) + 0 on 13;
   architecture neorv32_verilog_wrapper_rtl of neorv32_verilog_wrapper at 28( 1295) + 0 on 14;
