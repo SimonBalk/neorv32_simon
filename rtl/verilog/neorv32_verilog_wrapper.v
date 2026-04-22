@@ -1,4 +1,3 @@
-#
 module neorv32_cpu_alu_fpu_normalizer_5ba93c9db0cff93f52b521d7420e43f6eda2784f
   (input  clk_i,
    input  rstn_i,
