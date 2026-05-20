@@ -78,7 +78,7 @@ begin
     HPM_CNT_WIDTH       => 40,          -- total size of HPM counters
     -- Internal Instruction memory (IMEM) --
     IMEM_EN             => true,        -- implement processor-internal instruction memory
-    IMEM_SIZE           => 16*1024,     -- size of processor-internal instruction memory in bytes
+    IMEM_SIZE           => 64*1024,     -- size of processor-internal instruction memory in bytes
     IMEM_OUTREG_EN      => false,       -- no additional output register
     -- Internal Data memory (DMEM) --
     DMEM_EN             => true,        -- implement processor-internal data memory

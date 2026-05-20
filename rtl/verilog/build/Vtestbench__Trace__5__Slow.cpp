@@ -4159,7 +4159,7 @@ VL_ATTR_COLD void Vtestbench___024root__trace_full_0_sub_4(Vtestbench___024root*
     bufp->fullBit(oldp+8764,((1U & ((IData)(1U) + (IData)(vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__io_system_neorv32_spi_enabled_neorv32_spi_inst__DOT__tx_fifo_inst__DOT__n18164_q)))));
     __Vtemp_13[0U] = 0x1012636U;
     __Vtemp_13[1U] = 0x7c3f787eU;
-    __Vtemp_13[2U] = 0x59210d0eU;
+    __Vtemp_13[2U] = 0x59210d10U;
     __Vtemp_13[3U] = vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__io_system_neorv32_sysinfo_inst__DOT__n8883_q;
     bufp->fullWData(oldp+8765,(__Vtemp_13),128);
     bufp->fullIData(oldp+8769,(vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__io_system_neorv32_sysinfo_inst__DOT__n8883_q),32);
@@ -4871,11 +4871,11 @@ VL_ATTR_COLD void Vtestbench___024root__trace_full_0_sub_4(Vtestbench___024root*
     bufp->fullCData(oldp+9076,(vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__memory_system_neorv32_imem_enabled_neorv32_imem_inst__DOT__n3923_q),2);
     bufp->fullBit(oldp+9077,((1U & ((IData)(vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__memory_system_neorv32_imem_enabled_neorv32_imem_inst__DOT__n3923_q) 
                                     | (IData)(vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__memory_system_neorv32_imem_enabled_neorv32_imem_inst__DOT__n3922_q)))));
-    bufp->fullCData(oldp+9078,((0xffU & (vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__io_system_neorv32_bus_io_switch_inst__DOT__n4476_o 
-                                         >> 2U))),8);
-    bufp->fullCData(oldp+9079,((0xffU & ((IData)(0xffU) 
-                                         - (vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__io_system_neorv32_bus_io_switch_inst__DOT__n4476_o 
-                                            >> 2U)))),8);
+    bufp->fullSData(oldp+9078,((0x3fffU & (vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__io_system_neorv32_bus_io_switch_inst__DOT__n4476_o 
+                                           >> 2U))),14);
+    bufp->fullSData(oldp+9079,((0x3fffU & ((IData)(0x3fffU) 
+                                           - (vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__io_system_neorv32_bus_io_switch_inst__DOT__n4476_o 
+                                              >> 2U)))),14);
     bufp->fullWData(oldp+9080,(vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__memory_system_neorv32_xbus_enabled_neorv32_xbus_inst__DOT__reg_stage_inst__DOT__n17930_q),83);
     bufp->fullBit(oldp+9083,(vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__memory_system_neorv32_xbus_enabled_neorv32_xbus_inst__DOT__n4050_q));
     bufp->fullBit(oldp+9084,(vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__memory_system_neorv32_xbus_enabled_neorv32_xbus_inst__DOT__n4052_q));
@@ -4913,10 +4913,10 @@ VL_ATTR_COLD void Vtestbench___024root__trace_full_0_sub_4(Vtestbench___024root*
     bufp->fullWData(oldp+9099,(__Vtemp_16),73);
     bufp->fullCData(oldp+9102,((0x3fU & (vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__memory_system_neorv32_xbus_enabled_neorv32_xbus_inst__DOT__reg_stage_inst__DOT__n17930_q[2U] 
                                          >> 0xaU))),6);
-    bufp->fullIData(oldp+9103,((vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__io_system_neorv32_bus_io_switch_inst__DOT__n4476_o 
-                                >> 0xeU)),18);
+    bufp->fullSData(oldp+9103,((vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__io_system_neorv32_bus_io_switch_inst__DOT__n4476_o 
+                                >> 0x10U)),16);
     bufp->fullBit(oldp+9104,((0U == (vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__io_system_neorv32_bus_io_switch_inst__DOT__n4476_o 
-                                     >> 0xeU))));
+                                     >> 0x10U))));
     bufp->fullIData(oldp+9105,((vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__io_system_neorv32_bus_io_switch_inst__DOT__n4476_o 
                                 >> 0xdU)),19);
     bufp->fullBit(oldp+9106,((0x40000U == (vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__io_system_neorv32_bus_io_switch_inst__DOT__n4476_o 

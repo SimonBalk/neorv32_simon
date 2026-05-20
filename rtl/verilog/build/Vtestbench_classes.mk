@@ -42,6 +42,9 @@ VM_CLASSES_SLOW += \
 	Vtestbench___024root__DepSet_hed41eec4__0__Slow \
 	Vtestbench___024root__DepSet_hed41eec4__1__Slow \
 	Vtestbench___024root__DepSet_hed41eec4__2__Slow \
+	Vtestbench___024root__DepSet_hed41eec4__3__Slow \
+	Vtestbench___024root__DepSet_hed41eec4__4__Slow \
+	Vtestbench___024root__DepSet_hed41eec4__5__Slow \
 
 # Generated support classes, fast-path, compile with highest optimization
 VM_SUPPORT_FAST += \

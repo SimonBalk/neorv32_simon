@@ -2591,7 +2591,7 @@ class alignas(VL_CACHE_LINE_BYTES) Vtestbench___024root final : public Verilated
         VlUnpacked<IData/*31:0*/, 4> neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__neorv32_dma_complex_enabled_neorv32_dma_inst__DOT__descriptor_buffer__DOT__fifo;
     };
     struct {
-        VlUnpacked<IData/*31:0*/, 256> neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__memory_system_neorv32_imem_enabled_neorv32_imem_inst__DOT__imem_rom_imem_rom_inst__DOT__n17855;
+        VlUnpacked<IData/*31:0*/, 16384> neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__memory_system_neorv32_imem_enabled_neorv32_imem_inst__DOT__imem_rom_imem_rom_inst__DOT__n17855;
         VlUnpacked<CData/*7:0*/, 2048> neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__memory_system_neorv32_dmem_enabled_neorv32_dmem_inst__DOT__dmem_ram_inst__DOT__ram_gen_n1_ram_inst__DOT__spram;
         VlUnpacked<CData/*7:0*/, 2048> neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__memory_system_neorv32_dmem_enabled_neorv32_dmem_inst__DOT__dmem_ram_inst__DOT__ram_gen_n2_ram_inst__DOT__spram;
         VlUnpacked<CData/*7:0*/, 2048> neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__memory_system_neorv32_dmem_enabled_neorv32_dmem_inst__DOT__dmem_ram_inst__DOT__ram_gen_n3_ram_inst__DOT__spram;

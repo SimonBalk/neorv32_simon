@@ -733,7 +733,7 @@ VL_INLINE_OPT void Vtestbench___024root___act_sequent__TOP__6(Vtestbench___024ro
                       | (((0x40000U == (vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__io_system_neorv32_bus_io_switch_inst__DOT__n4476_o 
                                         >> 0xdU)) << 1U) 
                          | (0U == (vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__io_system_neorv32_bus_io_switch_inst__DOT__n4476_o 
-                                   >> 0xeU)))));
+                                   >> 0x10U)))));
     vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__memory_system_neorv32_imem_enabled_neorv32_imem_inst__DOT__n3885_o 
         = ((IData)(vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__neorv32_bus_gateway_inst__DOT__n3704_o) 
            & (IData)(vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__neorv32_bus_gateway_inst__DOT__n3874_o));

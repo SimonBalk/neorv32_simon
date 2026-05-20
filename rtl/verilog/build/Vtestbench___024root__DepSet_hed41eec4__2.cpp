@@ -1903,8 +1903,8 @@ VL_INLINE_OPT void Vtestbench___024root___nba_sequent__TOP__1(Vtestbench___024ro
     if (vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__memory_system_neorv32_imem_enabled_neorv32_imem_inst__DOT__n3885_o) {
         vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__memory_system_neorv32_imem_enabled_neorv32_imem_inst__DOT__imem_rom_imem_rom_inst__DOT__n17856_data 
             = vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__memory_system_neorv32_imem_enabled_neorv32_imem_inst__DOT__imem_rom_imem_rom_inst__DOT__n17855
-            [(0xffU & ((IData)(0xffU) - (vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__io_system_neorv32_bus_io_switch_inst__DOT__n4476_o 
-                                         >> 2U)))];
+            [(0x3fffU & ((IData)(0x3fffU) - (vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__io_system_neorv32_bus_io_switch_inst__DOT__n4476_o 
+                                             >> 2U)))];
     }
     vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__memory_system_neorv32_dmem_enabled_neorv32_dmem_inst__DOT__dmem_ram_inst__DOT__ram_gen_n4_ram_inst__DOT__n28142_q 
         = vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__memory_system_neorv32_dmem_enabled_neorv32_dmem_inst__DOT__dmem_ram_inst__DOT__ram_gen_n4_ram_inst__DOT__n28143_data;
@@ -3965,7 +3965,7 @@ VL_INLINE_OPT void Vtestbench___024root___nba_sequent__TOP__2(Vtestbench___024ro
                                                    vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__io_system_neorv32_bus_io_switch_inst__DOT__neorv32_bus_reg_inst__DOT__n17930_q[0U] 
                                                    >> 7U)))
                                           ? vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__io_system_neorv32_sysinfo_inst__DOT__n8883_q
-                                          : 0x59210d0eU)
+                                          : 0x59210d10U)
                                       : ((1U & ((IData)(1U) 
                                                 - (
                                                    vlSelf->neorv32_verilog_tb__DOT__neorv32_verilog_inst__DOT__neorv32_top_inst__DOT__io_system_neorv32_bus_io_switch_inst__DOT__neorv32_bus_reg_inst__DOT__n17930_q[0U] 
