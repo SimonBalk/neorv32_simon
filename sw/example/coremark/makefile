@@ -5,7 +5,7 @@
 MARCH = rv32imc_zicsr_zifencei
 
 # Override the default RISC-V GCC prefix
-#RISCV_PREFIX ?= riscv-none-elf-
+RISCV_PREFIX ?= riscv32-unknown-elf-
 
 # Override default optimization goal
 EFFORT = -O3
@@ -20,7 +20,7 @@ USER_FLAGS += \
 
 # Adjust processor DMEM size
 USER_FLAGS += \
--Wl,--defsym,__neorv32_ram_size=16k \
+-Wl,--defsym,__neorv32_ram_size=64k \
 -Wl,--defsym,__neorv32_ram_base=0x80000000
 
 # Adjust maximum heap size

@@ -23,6 +23,7 @@
 /**@{*/
 uint64_t neorv32_cpu_get_cycle(void);
 void     neorv32_cpu_set_mcycle(uint64_t value);
+uint64_t neorv32_cpu_get_time(void);
 uint64_t neorv32_cpu_get_instret(void);
 void     neorv32_cpu_set_minstret(uint64_t value);
 uint32_t neorv32_cpu_pmp_get_num_regions(void);
@@ -255,7 +256,7 @@ inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_csr_swap(const int c
  **************************************************************************/
 inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amolr(uint32_t addr) {
 
-#if defined __riscv_atomic
+#if defined(__riscv_a) || defined(__riscv_zalrsc)
   uint32_t amo_addr = addr;
   uint32_t amo_rdata;
 
@@ -282,7 +283,7 @@ inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amolr(uint32_t addr)
  **************************************************************************/
 inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amosc(uint32_t addr, uint32_t wdata) {
 
-#if defined __riscv_atomic
+#if defined(__riscv_a) || defined(__riscv_zalrsc)
   uint32_t amo_addr  = addr;
   uint32_t amo_wdata = wdata;
   uint32_t amo_status;
@@ -311,7 +312,7 @@ inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amosc(uint32_t addr,
  **************************************************************************/
 inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amoswap(uint32_t addr, uint32_t wdata) {
 
-#if defined __riscv_atomic
+#if defined(__riscv_a) || defined(__riscv_zaamo)
   uint32_t amo_addr  = addr;
   uint32_t amo_wdata = wdata;
   uint32_t amo_rdata;
@@ -340,7 +341,7 @@ inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amoswap(uint32_t add
  **************************************************************************/
 inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amoadd(uint32_t addr, uint32_t wdata) {
 
-#if defined __riscv_atomic
+#if defined(__riscv_a) || defined(__riscv_zaamo)
   uint32_t amo_addr  = addr;
   uint32_t amo_wdata = wdata;
   uint32_t amo_rdata;
@@ -369,7 +370,7 @@ inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amoadd(uint32_t addr
  **************************************************************************/
 inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amoxor(uint32_t addr, uint32_t wdata) {
 
-#if defined __riscv_atomic
+#if defined(__riscv_a) || defined(__riscv_zaamo)
   uint32_t amo_addr  = addr;
   uint32_t amo_wdata = wdata;
   uint32_t amo_rdata;
@@ -398,7 +399,7 @@ inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amoxor(uint32_t addr
  **************************************************************************/
 inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amoand(uint32_t addr, uint32_t wdata) {
 
-#if defined __riscv_atomic
+#if defined(__riscv_a) || defined(__riscv_zaamo)
   uint32_t amo_addr  = addr;
   uint32_t amo_wdata = wdata;
   uint32_t amo_rdata;
@@ -427,7 +428,7 @@ inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amoand(uint32_t addr
  **************************************************************************/
 inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amoor(uint32_t addr, uint32_t wdata) {
 
-#if defined __riscv_atomic
+#if defined(__riscv_a) || defined(__riscv_zaamo)
   uint32_t amo_addr  = addr;
   uint32_t amo_wdata = wdata;
   uint32_t amo_rdata;
@@ -456,7 +457,7 @@ inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amoor(uint32_t addr,
  **************************************************************************/
 inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amomin(uint32_t addr, uint32_t wdata) {
 
-#if defined __riscv_atomic
+#if defined(__riscv_a) || defined(__riscv_zaamo)
   uint32_t amo_addr  = addr;
   uint32_t amo_wdata = wdata;
   uint32_t amo_rdata;
@@ -485,7 +486,7 @@ inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amomin(uint32_t addr
  **************************************************************************/
 inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amomax(uint32_t addr, uint32_t wdata) {
 
-#if defined __riscv_atomic
+#if defined(__riscv_a) || defined(__riscv_zaamo)
   uint32_t amo_addr  = addr;
   uint32_t amo_wdata = wdata;
   uint32_t amo_rdata;
@@ -514,7 +515,7 @@ inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amomax(uint32_t addr
  **************************************************************************/
 inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amominu(uint32_t addr, uint32_t wdata) {
 
-#if defined __riscv_atomic
+#if defined(__riscv_a) || defined(__riscv_zaamo)
   uint32_t amo_addr  = addr;
   uint32_t amo_wdata = wdata;
   uint32_t amo_rdata;
@@ -543,7 +544,7 @@ inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amominu(uint32_t add
  **************************************************************************/
 inline uint32_t __attribute__ ((always_inline)) neorv32_cpu_amomaxu(uint32_t addr, uint32_t wdata) {
 
-#if defined __riscv_atomic
+#if defined(__riscv_a) || defined(__riscv_zaamo)
   uint32_t amo_addr  = addr;
   uint32_t amo_wdata = wdata;
   uint32_t amo_rdata;

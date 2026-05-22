@@ -5,7 +5,7 @@
 MARCH = rv32i_zicsr_zifencei
 
 # Override the default RISC-V GCC prefix
-RISCV_PREFIX ?= riscv32-unknown-elf-
+#RISCV_PREFIX ?= riscv-none-elf-
 
 # Override default optimization goal
 EFFORT = -Os
