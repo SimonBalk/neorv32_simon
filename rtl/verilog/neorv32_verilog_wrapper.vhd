@@ -82,7 +82,7 @@ begin
     IMEM_OUTREG_EN      => false,       -- no additional output register
     -- Internal Data memory (DMEM) --
     DMEM_EN             => true,        -- implement processor-internal data memory
-    DMEM_SIZE           => 8*1024,      -- size of processor-internal data memory in bytes
+    DMEM_SIZE           => 64*1024,      -- size of processor-internal data memory in bytes
     DMEM_OUTREG_EN      => true,        -- add additional output register
     -- CPU Caches --
     ICACHE_EN           => true,        -- implement instruction cache (i-cache)

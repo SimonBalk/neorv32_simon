@@ -1,7 +1,6 @@
 build/neorv32_cfu.c.o: ../../../sw/lib/source/neorv32_cfu.c \
  ../../../sw/lib/include/neorv32.h ../../../sw/lib/include/neorv32_aux.h \
  ../../../sw/lib/include/neorv32_cfs.h \
- ../../../sw/lib/include/neorv32_cfu.h \
  ../../../sw/lib/include/neorv32_clint.h \
  ../../../sw/lib/include/neorv32_cpu.h \
  ../../../sw/lib/include/neorv32_csr.h \
@@ -29,7 +28,6 @@ build/neorv32_cfu.c.o: ../../../sw/lib/source/neorv32_cfu.c \
 ../../../sw/lib/include/neorv32.h:
 ../../../sw/lib/include/neorv32_aux.h:
 ../../../sw/lib/include/neorv32_cfs.h:
-../../../sw/lib/include/neorv32_cfu.h:
 ../../../sw/lib/include/neorv32_clint.h:
 ../../../sw/lib/include/neorv32_cpu.h:
 ../../../sw/lib/include/neorv32_csr.h:

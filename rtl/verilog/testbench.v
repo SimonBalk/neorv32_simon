@@ -13,7 +13,7 @@
 
 `timescale 1 ns/100 ps // time-unit = 1 ns, precision = 100 ps
 
-module neorv32_verilog_tb;
+module neorv32_verilog_tb; 
 
   reg clk, nrst; // generators
   wire uart_txd; // serial TX line (default baud rate is 19200)
@@ -23,8 +23,8 @@ module neorv32_verilog_tb;
   // generator setup
   initial begin
 `ifdef DUMP_WAVE
-    $dumpfile("wave.fst"); // write waveform data
-    $dumpvars();
+    $dumpfile("wave.vcd"); // write waveform data      
+    $dumpvars(0, neorv32_verilog_inst.neorv32_top_inst);
 `endif
     $display ("[TB] NEORV32 Verilog testbench\n");
     clk = 0;
